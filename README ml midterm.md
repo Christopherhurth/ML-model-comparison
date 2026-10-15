@@ -50,5 +50,5 @@ python Third_task_210_midterm.py
 The scripts expect the original datasets (`Diabetes Missing Data.csv` and `college_student_placement_dataset.csv`) in the same folder. They aren't included here; the cleaned diabetes files produced by Task 1 are.
 
 ## Note on AI assistance
+Claude was used to help me work through the project. I ran and checked the results myself.
 
-Claude helped me work through this project. I ran the code and checked the results myself.
