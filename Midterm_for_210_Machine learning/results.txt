@@ -1,0 +1,81 @@
+*** drop | SGDClassifier ***
+Accuracy: 0.6456
+confusion matrix (rows = actual, columns = predicted):
+[[40 13]
+ [15 11]]
+Precision: 0.4583
+Recall: 0.4231
+Time: 0.003 seconds.
+
+*** drop | RandomForest ***
+Accuracy: 0.8354
+confusion matrix (rows = actual, columns = predicted):
+[[46  7]
+ [ 6 20]]
+Precision: 0.7407
+Recall: 0.7692
+Time: 0.226 seconds.
+
+*** drop | SVC ***
+Accuracy: 0.7595
+confusion matrix (rows = actual, columns = predicted):
+[[44  9]
+ [10 16]]
+Precision: 0.6400
+Recall: 0.6154
+Time: 0.010 seconds.
+
+*** zeros | SGDClassifier ***
+Accuracy: 0.7338
+confusion matrix (rows = actual, columns = predicted):
+[[79 21]
+ [20 34]]
+Precision: 0.6182
+Recall: 0.6296
+Time: 0.005 seconds.
+
+*** zeros | RandomForest ***
+Accuracy: 0.7468
+confusion matrix (rows = actual, columns = predicted):
+[[83 17]
+ [22 32]]
+Precision: 0.6531
+Recall: 0.5926
+Time: 0.253 seconds.
+
+*** zeros | SVC ***
+Accuracy: 0.7532
+confusion matrix (rows = actual, columns = predicted):
+[[83 17]
+ [21 33]]
+Precision: 0.6600
+Recall: 0.6111
+Time: 0.018 seconds.
+
+*** median | SGDClassifier ***
+Accuracy: 0.7013
+confusion matrix (rows = actual, columns = predicted):
+[[71 29]
+ [17 37]]
+Precision: 0.5606
+Recall: 0.6852
+Time: 0.005 seconds.
+
+*** median | RandomForest ***
+Accuracy: 0.7403
+confusion matrix (rows = actual, columns = predicted):
+[[84 16]
+ [24 30]]
+Precision: 0.6522
+Recall: 0.5556
+Time: 0.245 seconds.
+
+*** median | SVC ***
+Accuracy: 0.7403
+confusion matrix (rows = actual, columns = predicted):
+[[84 16]
+ [24 30]]
+Precision: 0.6522
+Recall: 0.5556
+Time: 0.009 seconds.
+

@@ -1,0 +1,27 @@
+*** diabetes_drop.csv | Pytorch MLP ***
+Accuracy: 0.7848
+confusion matrix (rows = actual, columns = predicted):
+[[42 11]
+ [ 6 20]]
+Precision: 0.6452
+Recall: 0.7692
+Time: 0.204 seconds.
+
+*** diabetes_zeros.csv | Pytorch MLP ***
+Accuracy: 0.7338
+confusion matrix (rows = actual, columns = predicted):
+[[77 23]
+ [18 36]]
+Precision: 0.6102
+Recall: 0.6667
+Time: 0.284 seconds.
+
+*** diabetes_median.csv | Pytorch MLP ***
+Accuracy: 0.7468
+confusion matrix (rows = actual, columns = predicted):
+[[82 18]
+ [21 33]]
+Precision: 0.6471
+Recall: 0.6111
+Time: 0.254 seconds.
+

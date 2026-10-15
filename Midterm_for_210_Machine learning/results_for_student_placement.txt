@@ -1,0 +1,45 @@
+Share of students placed: 0.166
+Always guessing 'No' would score 0.834 accuracy
+
+*** SGDClassifier ***
+Accuracy: 0.8995
+Confusion matrix (rows = actual, columns = predicted):
+[[1614   54]
+ [ 147  185]]
+Precision: 0.7741
+Recall: 0.5572
+Time: 0.024 seconds
+
+*** RandomForest ***
+Accuracy: 0.9995
+Confusion matrix (rows = actual, columns = predicted):
+[[1668    0]
+ [   1  331]]
+Precision: 1.0000
+Recall: 0.9970
+Time: 0.651 seconds
+
+*** SVC ***
+Accuracy: 0.9530
+Confusion matrix (rows = actual, columns = predicted):
+[[1646   22]
+ [  72  260]]
+Precision: 0.9220
+Recall: 0.7831
+Time: 0.377 seconds
+
+Random forest feature importances:
+Communication_Skills         0.2860
+IQ                           0.2352
+Projects_Completed           0.2059
+CGPA                         0.1601
+Prev_Sem_Result              0.0986
+Extra_Curricular_Score       0.0064
+Academic_Performance         0.0056
+Internship_Experience_Yes    0.0011
+Internship_Experience_No     0.0011
+dtype: float64
+
+Random forest 5-fold cross-validation F1: [1.     1.     1.     0.9985 1.    ]
+Mean: 0.9997
+
